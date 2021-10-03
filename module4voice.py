@@ -4,7 +4,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from asyncio.exceptions import TimeoutError
 
 def register(cb):
-    cb(VoiceVMOD(cb))
+    cb(VoiceVMOD())
 
 class VoiceVMOD(loader.Module):
     """Send voice from you`re text"""
